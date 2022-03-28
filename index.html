@@ -10,13 +10,13 @@
 </head>
 <body>
     <header>
-        <h1 class="logo">Codar<span>.</span></h1>
+        <h1 class="logo"><span>Codar</span>.</h1>
         <nav>
             <ul>
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#contatos">Contato</a></li>
-                <li class="login"><a href="#">Login</a></li>
+                <li><a class="nav" href="#inicio">Início</a></li>
+                <li><a class="nav" href="#servicos">Serviços</a></li>
+                <li><a class="nav" href="#contatos">Contato</a></li>
+                <li><a class="login" href="">Login</a></li>
             </ul>
         </nav>
     </header>
@@ -33,52 +33,68 @@
     <section id="servicos" class="servicos-section">
         <div class="servicos">
             <ul>
-                <li>Domínio personalizado</li>
-                <li>Hospedagem</li>
-                <li>Site responsivo</li>
-                <li>Redes sociais</li>
-                <li>Chat online</li>
-                <li>Blog integrado</li>
+                <li><i class="fa-solid fa-circle-check"></i>Domínio personalizado</li>
+                <li><i class="fa-solid fa-circle-check"></i>Hospedagem</li>
+                <li><i class="fa-solid fa-circle-check"></i>Site responsivo</li>
+                <li><i class="fa-solid fa-circle-check"></i>Redes sociais</li>
+                <li><i class="fa-solid fa-circle-check"></i>Chat online</li>
+                <li><i class="fa-solid fa-circle-check"></i>Blog integrado</li>
             </ul>
             <img src="assets/images/coding_.png" alt="Ilustração de uma pessoa codando/programando">
         </div>
+    </section>
+    <section id="contatos">
+        <p>Nossa equipe está à disposição!</p>
         <form action="contact">
-            <label for="contact">Nossa equipe está à disposição!</label>
             <input type="text" placeholder="Celular">
-            <button>Ligamos pra você</button>
+            <button>Ligamos para você</button>
         </form>
     </section>
     <section class="depoimentos">
         <article class="depoimento">
-            <p>Já tive experiências com outras 4 empresas da área e a Codar é sem sombra de dúvidas superior em todos os aspectos.</p>
-            <h3>Pedro Ferreira</h3>
-            <p>Construtora Minari</p>
+            <div class="icone-depoimento">
+                <img src="assets/images/red.png" alt="Icone">
+            </div>
+            <div class="texto-depoimento">
+                <p>Já tive experiências com outras 4 empresas da área e a Codar é sem sombra de dúvidas superior em todos os aspectos.</p>
+                <h3>Pedro Ferreira</h3>
+                <p class="instituicao-depoimento">Construtora Minari</p>
+            </div>
         </article>
         <article class="depoimento">
-            <p>Processos bem simples e criação de um site exatamente como a minha escola queria!</p>
-            <h3>Maria Rita</h3>
-            <p>Escola Criança Feliz</p>
+            <div class="icone-depoimento">
+                <img src="assets/images/red.png" alt="Icone">
+            </div>
+            <div class="texto-depoimento">
+                <p>Processos bem simples e criação de um site exatamente como a minha escola queria!</p>
+                <h3>Maria Rita</h3>
+                <p class="instituicao-depoimento">Escola Criança Feliz</p>
+            </div>
         </article>
     </section>
     <footer>
-        <div>
+        <div class="colunas-footer">
             <h1>Codar.</h1>
             <p>Criamos websites incríveis</p>
         </div>
-        <div>
+        <div class="colunas-footer">
             <h2>Sobre</h2>
             <p>Amamos criar soluções <br> e entregar sites incríveis</p>
         </div>
-        <div>
+        <div class="colunas-footer">
             <h2>Contato</h2>
             <p>123 Av. Manjar - Nárnia</p>
             <p>+55 96 2321-3131</p>
-            <p>contato@codar.com</p>
+            <p><a href="mailto:contato@codar.com">contato@codar.com</a></p>
         </div>
-        <h2>Redes sociais</h2>
-        <i class="fa-brands fa-facebook-square"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-twitter-square"></i>
+        <div class="colunas-footer">
+            <h2>Redes sociais</h2>
+            <div class="redes-sociais">
+                <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+            </div>
+        </div>
     </footer>
     <script src="https://kit.fontawesome.com/ecdff62a48.js" crossorigin="anonymous"></script>
 </body>
