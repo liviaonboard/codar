@@ -1,0 +1,151 @@
+@media (max-width: 1024px) {
+    header{
+        margin: 0 20px;
+    }
+
+    #contatos{
+        justify-content: center;
+        margin: 80px 222px;
+    }
+
+    #contatos form{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #contatos form button{
+        padding: 10px 20px;
+    }
+
+    .depoimentos{
+        margin: 180px 100px 100px 100px;
+    }
+}
+
+@media (max-width: 700px) {
+    header{
+        flex-direction: column;
+        margin: 30px 0 10px 0;
+    }
+
+    header nav ul{
+        justify-content: center;
+        list-style-type: none;
+        margin-top: 20px;
+        font-size: 1.3em;
+        width: 450px;
+    }
+
+    header nav ul li{
+        margin-left: 50px;
+    }
+
+    header nav ul li .login{
+        display: none;
+    }
+
+    .landing-section{
+        margin: 70px 0;
+        flex-direction: column;
+    }
+
+    .landing-img{
+        margin: 0 0 50px 0;
+    }
+
+    .landing-img img{
+        max-width: 400px;
+    }
+
+    .landing-text{
+        text-align: center;
+    }
+
+    .landing-text button{
+        font-weight: normal;
+        padding: 15px 70px;
+    }
+
+    .servicos-section{
+        margin-top: 200px;
+    }
+
+    .servicos-section .servicos{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column-reverse;
+    }
+
+    .servicos img{
+        max-width: 350px;
+        margin-bottom: 30px;
+    }
+
+    .servicos ul{
+        line-height: 60px;
+    }
+
+    #contatos{
+        justify-content: center;
+        align-items: center;
+        margin: 40px 10px;
+    }
+
+    #contatos form{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #contatos form input{
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+
+    #contatos form button{
+        max-width: 400px;
+        padding: 10px 48px;
+    }
+
+    .depoimentos{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin: 150px 20px;
+    }
+
+    .depoimento{
+        width: 400px;
+        margin-bottom: 25px;
+        margin-right: 0;
+        padding: 25px 30px;
+    }
+
+    footer{
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 30px 50px;
+    }
+
+    footer .coluna-1{
+        text-align: center;
+    }
+
+    .colunas-footer h3{
+        margin-bottom: 20px;
+    }
+
+    footer p{
+        margin-top: -10px;
+    }
+
+    .redes-sociais{
+        justify-content: flex-start;
+    }
+
+    .redes-sociais a{
+        margin-right: 20px;
+    }
+}
